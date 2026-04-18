@@ -43,6 +43,11 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > 6 self-contained agents, 10 slash commands, token-efficient by design — nearly zero API spent on coordination.
 > Inspired by Claude-Code-Game-Studios, rebuilt from scratch for solo devs on limited API budgets.
 
+**[📈 Crypto Futures Trading Bot](https://github.com/Ghraven)** &nbsp;·&nbsp; `Python` `CCXT` `Claude API` `Ollama`
+> Automated BTC/ETH/BNB/SOL futures trading bot running on GCP (Singapore).
+> Uses multi-timeframe analysis (4H → 1H → 30M → 15M), local LLM pre-screening via Ollama, and Claude API as a confirmation layer.
+> Currently in live testing. Repo is private while in active development.
+
 ---
 
 ### 🌱 Currently exploring
