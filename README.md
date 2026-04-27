@@ -66,6 +66,26 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ### 📫 Reach me at **rolly.calma.0217@gmail.com**
 
+
+---
+
+### 🔀 Open Source Contributions
+
+I've been actively contributing to Python open source projects — fixing real bugs, adding features, and improving test coverage across AI, trading, and developer tooling repos.
+
+| Repository | ⭐ Stars | PR | What I did | Status |
+|---|---|---|---|---|
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 53k | [#606](https://github.com/TauricResearch/TradingAgents/pull/606) | Made news fetch parameters configurable via `DEFAULT_CONFIG` — `news_article_limit`, `global_news_queries`, lookback windows | 🟡 Open |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 53k | [#607](https://github.com/TauricResearch/TradingAgents/pull/607) | Renamed `social_media_analyst` → `sentiment_analyst` with an honest prompt; added backwards-compat shim | 🟡 Open |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) | 42k | [#28462](https://github.com/ccxt/ccxt/pull/28462) | Fixed `watch_orders` message hash mismatch bug in Python GRVT exchange — `'order::'` → `'orders::'` | ⚫ Closed |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 10k | [#7407](https://github.com/voxel51/fiftyone/pull/7407) | Replaced all 13 deprecated `datetime.utcnow()` calls with `datetime.now(UTC)` | 🟡 Open |
+| [ollama/ollama-python](https://github.com/ollama/ollama-python) | 9.9k | [#652](https://github.com/ollama/ollama-python/pull/652) | Added `client.exists(model)` — clean boolean check for local model availability | 🟡 Open |
+| [ollama/ollama-python](https://github.com/ollama/ollama-python) | 9.9k | [#653](https://github.com/ollama/ollama-python/pull/653) | Exposed `ollama.__version__` and top-level `version()` / `async_version()` helpers | 🟡 Open |
+| [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | 3.6k | [#1000](https://github.com/Tracer-Cloud/opensre/pull/1000) | Added missing `__init__.py` to `tests/integrations/` and `tests/nodes/` packages | ✅ Merged |
+| [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | 3.6k | [#1001](https://github.com/Tracer-Cloud/opensre/pull/1001) | Added unit tests for 3 Bitbucket tools — `Commits`, `FileContents`, `SearchCode` | 🟡 Open |
+| [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | 3.6k | [#1013](https://github.com/Tracer-Cloud/opensre/pull/1013) | Added unit tests for Kafka tools — `KafkaTopicHealthTool`, `KafkaConsumerGroupTool` | 🟡 Open |
+| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) | 185 | [#628](https://github.com/Noble-Lab/casanovo/pull/628) | Extended `val_check_interval` to accept `float` in `(0,1]` or `int >= 1` matching PyTorch Lightning semantics | 🟡 Open |
+
 ---
 
 <h3 align="left">🔗 Connect with me:</h3>
