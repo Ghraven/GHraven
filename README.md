@@ -95,8 +95,6 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 
 ---
 
-<h3 align="left">🔗 Connect with me:</h3>---
-
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
   <a href="https://linkedin.com/in/rollycalma/" target="blank">
