@@ -74,7 +74,7 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-27-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-32-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-2-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-9-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Combined_stars-130k%2B-yellow?style=flat-square" alt="Combined stars" />
@@ -86,11 +86,11 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 |---|---|
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐53k | Configurable news parameters · Renamed social_media → sentiment analyst |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐9.9k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` |
-| [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests · Shared helpers · Refactoring · Docs · CLI tests · aws_sdk_client tests |
+| [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests · Shared helpers · Refactoring · Docs · Telegram integration guide · Consolidated remote tests |
 | [tecnolgd/repoScanner](https://github.com/tecnolgd/repoScanner) | Expanded language detection to 40+ file extensions |
-| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐185 | Fixed `val_check_interval` to accept float or int types |
+| [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐185 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start) |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command · Pinned dependencies |
 
 ---
