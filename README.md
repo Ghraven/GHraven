@@ -50,6 +50,17 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ---
 
+### 📌 Gists
+
+Small standalone scripts and utilities I've published.
+
+| Gist | Description |
+|---|---|
+| [🎮 Discord Quest Completer v2](https://gist.github.com/Ghraven/5f8dc950b8835e091e26a9d155598cc9) | Improved fork of aamiaa's script — completes all active quests, progress bar + ETA, auto-resume, color-coded console output |
+| [🔧 Python Utilities](https://gist.github.com/Ghraven/2550f83090b8c6d51964cecf2668786f) | Retry decorator with exponential backoff + rate limiter — pure stdlib, no deps, used in trading bots and AI agents |
+
+---
+
 ### 🌱 Currently exploring
 
 - Multi-agent orchestration and LLM routing patterns
