@@ -89,9 +89,9 @@ Small standalone scripts and utilities I've published.
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-61-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-63-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-11-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Repos_contributed-13-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Combined_stars-130k%2B-yellow?style=flat-square" alt="Combined stars" />
 </p>
 
@@ -109,6 +109,8 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command · Pinned dependencies |
 | [apache/burr](https://github.com/apache/burr) ⭐1.9k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` |
 | [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.4k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐50k | Fixed class-level `@persist()` doc example — second run now correctly passes `flow_id` to resume persisted state |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Replaced deprecated `asyncio.get_event_loop()` with `get_running_loop()` in `pydantic_graph` — removes Python 3.12 deprecation warning |
 
 ---
 
