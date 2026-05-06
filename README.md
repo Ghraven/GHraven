@@ -119,6 +119,27 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 
 ---
 
+---
+
+### 📌 Featured Repos
+
+<p align="left">
+  <a href="https://github.com/Ghraven/agent-meeting-room">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghraven&repo=agent-meeting-room&theme=default" />
+  </a>
+  <a href="https://github.com/Ghraven/python-utils-toolkit">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghraven&repo=python-utils-toolkit&theme=default" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://github.com/Ghraven/yt-shorts-autopilot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghraven&repo=yt-shorts-autopilot&theme=default" />
+  </a>
+  <a href="https://github.com/Ghraven/Claude-Code-Solo-Studio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghraven&repo=Claude-Code-Solo-Studio&theme=default" />
+  </a>
+</p>
+
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
   <a href="https://linkedin.com/in/rollycalma/" target="blank">
