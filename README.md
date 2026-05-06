@@ -89,9 +89,9 @@ Small standalone scripts and utilities I've published.
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-68-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-70-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-17-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Repos_contributed-19-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Combined_stars-130k%2B-yellow?style=flat-square" alt="Combined stars" />
 </p>
 
@@ -116,6 +116,8 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows |
 | [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys when headers appear as formatted strings in debug log messages |
 | [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt despite `add_learnings_to_context=True` |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐136k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐16k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging — now consistent with record-level updates |
 
 ---
 
