@@ -89,9 +89,9 @@ Small standalone scripts and utilities I've published.
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-63-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-68-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
-  <img src="https://img.shields.io/badge/Repos_contributed-13-orange?style=flat-square" alt="Repos contributed" />
+  <img src="https://img.shields.io/badge/Repos_contributed-17-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Combined_stars-130k%2B-yellow?style=flat-square" alt="Combined stars" />
 </p>
 
@@ -111,6 +111,11 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 | [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.4k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐50k | Fixed class-level `@persist()` doc example — second run now correctly passes `flow_id` to resume persisted state |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Replaced deprecated `asyncio.get_event_loop()` with `get_running_loop()` in `pydantic_graph` — removes Python 3.12 deprecation warning |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) ⭐49k | Set inner OpenAI client `max_retries=0` to prevent `AuthenticationError` from being silently retried via SDK internals |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐55k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts — now correctly iterates part types |
+| [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows |
+| [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys when headers appear as formatted strings in debug log messages |
+| [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt despite `add_learnings_to_context=True` |
 
 ---
 
