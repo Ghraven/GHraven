@@ -92,7 +92,7 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
   <img src="https://img.shields.io/badge/PRs_opened-70-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-19-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Combined_stars-130k%2B-yellow?style=flat-square" alt="Combined stars" />
+  <img src="https://img.shields.io/badge/Combined_stars-600k%2B-yellow?style=flat-square" alt="Combined stars" />
 </p>
 
 **Repos I've contributed to:**
