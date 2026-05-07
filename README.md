@@ -146,12 +146,12 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 ---
 
 <p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ghraven&show_icons=true&locale=en&layout=compact&theme=default" alt="ghraven" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ghraven&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="ghraven" />
 </p>
 <p>&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ghraven&show_icons=true&locale=en&theme=default" alt="ghraven" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ghraven&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="ghraven" />
 </p>
 <p>
-  <img align="center" src="https://github-streak-stats.herokuapp.com/?user=ghraven&" alt="ghraven" />
+  <img align="center" src="https://streak-stats.demolab.com/?user=ghraven&theme=tokyonight&hide_border=true" alt="ghraven" />
 </p>
 
