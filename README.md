@@ -99,7 +99,7 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 
 | Repository | What I worked on |
 |---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐53k | Configurable news parameters · Renamed social_media → sentiment analyst · Code reviews on API key error handling and investment horizon feature |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐70k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐9.9k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support |
