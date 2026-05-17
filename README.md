@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rolly Calma</h1>
 <h3 align="center">AI Builder · Python Developer · Multi-Agent Systems</h3>
+<p align="center"><strong>🟢 Open to work — remote or Philippines-based</strong></p>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ghraven&label=Profile%20views&color=0e75b6&style=flat" alt="ghraven" />
   &nbsp;
@@ -72,11 +73,10 @@ Small standalone scripts and utilities I've published.
 
 ### 🌱 Currently exploring
 
-- Multi-agent orchestration and LLM routing patterns
-- Local LLM deployment with Ollama (RAM-efficient, keep_alive strategies)
-- Agentic workflows, tool use, and Claude API
-- Automation pipelines — video processing, scheduling, and content delivery
-- Game development tooling with Claude Code
+- Voice interfaces for local AI — Whisper STT + Piper/Kokoro TTS + Ollama (JARVIS-style assistant)
+- Roblox game development — survival game with custom biome, zombie, and workbench progression systems
+- Open source contribution patterns — bug triage, changelog discipline, and working with maintainer feedback across large codebases
+- MCP (Model Context Protocol) server development — built a custom RavenMCP server connecting Claude Code to Roblox Studio
 
 ---
 
@@ -106,7 +106,7 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 
 | Repository | What I worked on |
 |---|---|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐70k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐76k | Configurable news fetch parameters (applied by maintainer) · Renamed social_media_analyst → sentiment_analyst with backward-compat alias (applied by maintainer) · Code reviews on API key error handling and investment horizon feature |
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) ⭐42k | Fixed `watch_orders` message hash bug in GRVT exchange |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐9.9k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` — OpenAI tool schema compliance |
@@ -127,9 +127,6 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐16k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` in onnx embedding function |
 
 ---
-
----
-
 
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
