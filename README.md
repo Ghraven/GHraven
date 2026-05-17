@@ -47,10 +47,15 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > 6 self-contained agents, 10 slash commands, token-efficient by design — nearly zero API spent on coordination.
 > Inspired by Claude-Code-Game-Studios, rebuilt from scratch for solo devs on limited API budgets.
 
+**[🛠️ Python Utils Toolkit](https://github.com/Ghraven/python-utils-toolkit)** &nbsp;·&nbsp; `Python` `stdlib`
+> 15 production-ready utility modules — retry with backoff, async rate limiter, TTL cache, HMAC/crypto helpers, file I/O, and more.
+> Pure Python, zero heavy dependencies. Built iteratively with **16 PRs merged** — full test suite, versioned releases, and changelogs.
+> Used internally across the trading bot, agent room, and automation pipelines.
+
 **[📈 Crypto Futures Trading Bot](https://github.com/Ghraven)** &nbsp;·&nbsp; `Python` `CCXT` `Claude API` `Ollama`
-> Automated BTC/ETH/BNB/SOL futures trading bot running on GCP (Singapore).
-> Uses multi-timeframe analysis (4H → 1H → 30M → 15M), local LLM pre-screening via Ollama, and Claude API as a confirmation layer.
-> Currently in live testing. Repo is private while in active development.
+> Automated BTC/ETH/BNB/SOL futures trading bot running on GCP Singapore (asia-southeast1).
+> Multi-timeframe analysis (4H trend → 1H confirm → 30M entry → optional 15M fine-entry). Ollama/Mistral pre-screens signals; Claude API makes final confirmation at 72% threshold.
+> SL/TP orders placed directly on Binance for offline protection. Discord webhook alerts. Currently in live testing — repo private.
 
 ---
 
@@ -88,11 +93,13 @@ Small standalone scripts and utilities I've published.
 
 I actively contribute to Python open source projects — fixing bugs, adding features, improving test coverage, and refactoring shared logic across AI, trading, and developer tooling repos.
 
+My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
+
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-77-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-19-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Combined_stars-600k%2B-yellow?style=flat-square" alt="Combined stars" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-619k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Repos I've contributed to:**
