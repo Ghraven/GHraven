@@ -97,7 +97,7 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 
 <p align="left">
   <img src="https://img.shields.io/badge/PRs_opened-82-blue?style=flat-square" alt="PRs opened" />
-  <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
+  <img src="https://img.shields.io/badge/Merged-21-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-20-orange?style=flat-square" alt="Repos contributed" />
   <img src="https://img.shields.io/badge/Contributed_to_repos_with-620k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
@@ -120,7 +120,7 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 | [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [apache/burr](https://github.com/apache/burr) ⭐1.9k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` |
-| [mattzh72/articraft](https://github.com/mattzh72/articraft) ⭐801 | Added `encoding="utf-8"` to the 9 `aiofiles.open()` call sites across agent code-manipulation tools (`read_file`, `write_code`, `edit_code`, `apply_patch`) and the harness final-code reader — prevents `UnicodeDecodeError` on Windows / non-utf-8 locales when reading or re-reading agent-generated Python files with non-ASCII content |
+| [mattzh72/articraft](https://github.com/mattzh72/articraft) ⭐801 | Added `encoding="utf-8"` to the 9 `aiofiles.open()` call sites across agent code-manipulation tools (`read_file`, `write_code`, `edit_code`, `apply_patch`) and the harness final-code reader — prevents `UnicodeDecodeError` on Windows / non-utf-8 locales when reading or re-reading agent-generated Python files with non-ASCII content ✅ merged |
 | [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.5k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column · Added explicit `encoding="utf-8"` to all 16 SQL schema loaders in `social_platform/database.py` |
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐185 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) |
