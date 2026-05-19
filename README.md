@@ -96,10 +96,10 @@ I actively contribute to Python open source projects — fixing bugs, adding fea
 My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)** repo was built entirely through PRs — 16 merged across 15 modules — showing the same contribution workflow I use upstream: scoped commits, changelogs, and full test coverage.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/PRs_opened-77-blue?style=flat-square" alt="PRs opened" />
+  <img src="https://img.shields.io/badge/PRs_opened-81-blue?style=flat-square" alt="PRs opened" />
   <img src="https://img.shields.io/badge/Merged-20-brightgreen?style=flat-square" alt="Merged" />
   <img src="https://img.shields.io/badge/Repos_contributed-19-orange?style=flat-square" alt="Repos contributed" />
-  <img src="https://img.shields.io/badge/Contributed_to_repos_with-619k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
+  <img src="https://img.shields.io/badge/Contributed_to_repos_with-620k%2B_⭐-yellow?style=flat-square" alt="Combined stars of contributed repos" />
 </p>
 
 **Repos I've contributed to:**
@@ -111,16 +111,16 @@ My own **[python-utils-toolkit](https://github.com/Ghraven/python-utils-toolkit)
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐136k | Fixed `HuggingFaceEndpoint` `_stream` and `_astream` not passing `model=self.model` — streaming always used the wrong default model |
 | [microsoft/autogen](https://github.com/microsoft/autogen) ⭐58k | Added `encoding='utf-8'` to `open()` calls in GAIA benchmark scripts to fix `UnicodeDecodeError` on non-English Windows |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) ⭐55k | Fixed `parse_vision_messages` crash when message content is a text-only list of parts · Fixed `_update_memory()` silently dropping all custom metadata on every update — now overlays changes onto full existing payload (sync + async) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐50k | Fixed class-level `@persist()` doc example · Fixed Bedrock streaming tool args always receiving `{}` · Replaced deprecated `datetime.utcnow()` across memory subsystem (4 files, 9 call sites) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) ⭐51k | Fixed class-level `@persist()` doc example · Fixed Bedrock streaming tool args always receiving `{}` · Replaced deprecated `datetime.utcnow()` across memory subsystem (4 files, 9 call sites) · Added explicit `encoding="utf-8"` to text-mode `open()` calls across CLI and `crewai_core` (12 sites, 5 files) |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) ⭐49k | Set inner OpenAI client `max_retries=0` to prevent `AuthenticationError` from being silently retried |
-| [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt · Fixed `Message.from_dict()` not parsing JSON-stringified list content from Postgres · Replaced deprecated `datetime.utcnow()` in `DecisionLogStore` with timezone-aware alternative |
+| [agno-agi/agno](https://github.com/agno-agi/agno) ⭐40k | Fixed `Team` never injecting `LearningMachine` context into its system prompt · Fixed `Message.from_dict()` not parsing JSON-stringified list content from Postgres · Replaced deprecated `datetime.utcnow()` in `DecisionLogStore` with timezone-aware alternative · Added explicit `encoding="utf-8"` to text-mode `open()` calls across models/os/tools/db/utils (11 sites, 5 files) |
 | [openai/openai-python](https://github.com/openai/openai-python) ⭐31k | Extended `SensitiveHeadersFilter` to redact API keys appearing as formatted strings in debug log messages |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐17k | Replaced deprecated `asyncio.get_event_loop()` with `get_running_loop()` in `pydantic_graph` — removes Python 3.12 deprecation warning |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) ⭐16k | Fixed `collection.modify(metadata=...)` replacing entire metadata dict instead of merging · Narrowed bare `# type: ignore` to `# type: ignore[misc]` on tenacity `@retry` |
-| [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐9.9k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` |
+| [ollama/ollama-python](https://github.com/ollama/ollama-python) ⭐10k | Added `client.exists()` · Exposed `__version__` and `version()` · Added `Audio` field to `Message` · Added `__enter__`/`__aenter__` context manager support · Fixed `convert_function_to_tool` incorrectly listing default-value params in `required` · Replaced deprecated `datetime.utcnow()` in `web_search_gpt_oss_helper` example (5 sites) |
 | [voxel51/fiftyone](https://github.com/voxel51/fiftyone) ⭐10k | Replaced deprecated `datetime.utcnow()` · Migrated brush import to `label_studio_sdk` · Added `train_extra` split to Cityscapes loader |
 | [apache/burr](https://github.com/apache/burr) ⭐1.9k | Fixed `stream_type` type annotation to accept union of BaseModel types in `streaming_action.pydantic()` |
-| [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.4k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column |
+| [camel-ai/oasis](https://github.com/camel-ai/oasis) ⭐4.5k | Fixed `KeyError: 'post_id'` in `rec_sys_personalized_with_trace` — trace rows store post_id in `info` JSON, not as a top-level column · Added explicit `encoding="utf-8"` to all 16 SQL schema loaders in `social_platform/database.py` |
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) ⭐3.6k | Unit tests ✅ merged · Shared helpers · Refactoring · Docs · Telegram integration guide · LLM providers reference · Snowflake/OpenObserve/OpenSearch tool tests · Early-exit integration validation · Post-signup onboarding page |
 | [Noble-Lab/casanovo](https://github.com/Noble-Lab/casanovo) ⭐185 | Fixed `val_check_interval` float/int · Improved README (grammar, badges, quick start, application area descriptions) |
 | [IN3PIRE/pn](https://github.com/IN3PIRE/pn) | Added `!uptime` command ✅ merged · Pinned dependencies ✅ merged |
