@@ -37,9 +37,9 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 
 ### 🚀 Featured Projects
 
-**[🏠 Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room)** &nbsp;·&nbsp; `Python` `Flask` `Ollama` `Claude API`
+**[🏠 Agent Meeting Room](https://github.com/GhravenLabs/Agent-Meeting-Room)** &nbsp;·&nbsp; `Python` `Flask` `Ollama` `Cloud LLM APIs`
 > A web app where you @mention AI agents to bring them into a live group chat.
-> Built end-to-end: Flask backend, SSE streaming, local model routing, Claude API integration, debate mode, and persistent Obsidian memory.
+> Built end-to-end: Flask backend, SSE streaming, local model routing, optional cloud model integration, debate mode, and persistent Obsidian memory.
 > Runs any **Ollama-compatible model** — defaults use sub-8B models so it works on modest hardware, but swap in anything your GPU can handle.
 > Includes structured **debate mode** (3 rounds), **free-talk streaming** via SSE, **Obsidian memory**, and research-to-action delivery drafts.
 
@@ -51,10 +51,9 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 > Zero-dependency website QA tool that checks launch-readiness and produces client-ready reports.
 > Built as practical proof for Webloom-style website QA, deployment rescue, and AI-search readiness services, including canonical/indexability/structured-data checks.
 
-**[🎮 Claude Code Solo Studio](https://github.com/Ghraven/Claude-Code-Solo-Studio)** &nbsp;·&nbsp; `Claude Code` `Godot` `Unity`
-> A lightweight Claude Code template for solo game developers.
-> 6 self-contained agents, 10 slash commands, token-efficient by design — nearly zero API spent on coordination.
-> Inspired by Claude-Code-Game-Studios, rebuilt from scratch for solo devs on limited API budgets.
+**[⌨️ WPM Trainer](https://github.com/GhravenLabs/WPM-Trainer)** &nbsp;·&nbsp; `JavaScript` `Typing Practice` `Local Storage`
+> Browser typing trainer with weak-key drills, session history, and no backend required.
+> Built as a small, inspectable frontend project for practicing tight feedback loops and local-first UX.
 
 **[🧪 GhravenLabs Proof Gallery](https://ghravenlabs.github.io/)** &nbsp;·&nbsp; `Python` `JavaScript` `GitHub Pages`
 > Public showcase of small runnable tools: Data Cleaner, WPM Trainer, Website QA Auditor, Mini-RAG, and Steam Free Games Tracker.
@@ -72,13 +71,13 @@ I build AI-powered tools, automation pipelines, and multi-agent systems — apps
 - Voice interfaces for local AI — Whisper STT + Piper/Kokoro TTS + Ollama (JARVIS-style assistant)
 - Roblox game development — survival game with custom biome, zombie, and workbench progression systems
 - Open source contribution patterns — bug triage, changelog discipline, and working with maintainer feedback across large codebases
-- MCP (Model Context Protocol) server development — built a custom RavenMCP server connecting Claude Code to Roblox Studio
+- MCP (Model Context Protocol) server development — built a custom RavenMCP server connecting an AI coding workflow to Roblox Studio
 
 ---
 
 ### 💬 Ask me about
 
-**Python · Flask · Local LLMs · Ollama · Anthropic Claude API · Multi-agent systems · SSE streaming · RAG · evals · Claude Code · Godot · Game Dev Templates**
+**Python · Flask · Local LLMs · Ollama · Cloud LLM APIs · Multi-agent systems · SSE streaming · RAG · evals · AI coding workflows · Godot · Game Dev Templates**
 
 ### 📫 Reach me at **rolly.calma.0217@gmail.com**
 
